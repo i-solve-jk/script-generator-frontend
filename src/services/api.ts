@@ -8,7 +8,7 @@ import type {
 } from "../types";
 
 const API_BASE =
-  import.meta.env.VITE_API_BASE ?? "https://script-generator-fast-api.vercel.app";
+  import.meta.env.VITE_API_BASE ;
 
 class ApiError extends Error {
   status: number;
