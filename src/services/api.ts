@@ -7,7 +7,8 @@ import type {
   VideoProvider,
 } from "../types";
 
-const API_BASE = "/api";
+const API_BASE =
+  import.meta.env.VITE_API_BASE ?? "https://script-generator-fast-api.vercel.app";
 
 class ApiError extends Error {
   status: number;
