@@ -1,3 +1,5 @@
+export type WorkflowStep = "prompt" | "options" | "enhance" | "script";
+
 export interface ExtractedOptions {
   duration: string;
   language: string;
